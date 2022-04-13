@@ -1,7 +1,7 @@
 {
   "name": "craco-antd",
   "version": "1.19.0",
-  "description": "A craco plugin to use Ant Design with create-react-app ",
+  "description": "A craco plugin to use Ant Design with create-react-app. It is update for using plugin with craco 7.0.0-alpha.3 and react-scripts 5.0.0",
   "main": "lib/craco-antd.js",
   "scripts": {
     "test": "jest --testPathIgnorePatterns test-app",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/DocSpring/craco-antd.git"
+    "url": "git+ssh://git@github.com:mp0120/craco-antd.git"
   },
   "keywords": [
     "craco",
@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/DocSpring/craco-antd#readme",
   "devDependencies": {
-    "@craco/craco": "^5.7.0",
+    "@craco/craco": "^7.0.0",
     "clone": "^2.1.2",
     "coveralls": "^3.1.0",
     "eslint": "7.11.0",
@@ -39,7 +39,7 @@
     "jest": "^26.5.3",
     "lint-staged": "^10.4.1",
     "prettier": "^2.1.2",
-    "react-scripts": "^3.4.3"
+    "react-scripts": "^5.0.0"
   },
   "dependencies": {
     "babel-plugin-import": "^1.13.1",
@@ -47,9 +47,9 @@
     "less-vars-to-js": "^1.3.0"
   },
   "peerDependencies": {
-    "@craco/craco": "^5.5.0",
+    "@craco/craco": "^7.0.0",
     "antd": ">= 3.0.0",
-    "react-scripts": "^3.4.3"
+    "react-scripts": "^5.0.0"
   },
   "husky": {
     "hooks": {
